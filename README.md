@@ -1,4 +1,6 @@
-# HUGO XMIN
+# HUGO XMIN+
+
+This repo is basically `yihui/hugo-xmin` with some additional simple features and widgets. The original documentation is kept as is below.
 
 ## _Keep it simple, but not simpler_
 
