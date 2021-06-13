@@ -8,8 +8,8 @@ ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\
 footnotereturnlinkcontents: "↩"
 
 permalinks:
-  note: "/note/:year/:month/:day/:slug/"
-  post: "/post/:year/:month/:day/:slug/"
+  note: "/note/:year/:slug/"
+  post: "/post/:year/:slug/"
 
 menu:
   main:
@@ -30,8 +30,8 @@ menu:
 
 params:
   description: "A website built through Hugo and blogdown."
-  GithubEdit: "https://github.com/yihui/hugo-xmin/edit/feature/github-edit/exampleSite/content/"
-  footer: "&copy; [Yihui Xie](https://yihui.org) 2017 -- 2020 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+  GithubEdit: "https://github.com/drizmiz/blog-main/edit/master/"
+  footer: "[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) &#127279;[Drizzle](https://driz.netlify.app) 2017 -- 2020 | [Github](https://github.com/drizmiz)"
 
 markup:
   goldmark:
