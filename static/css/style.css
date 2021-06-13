@@ -7,20 +7,42 @@ body {
 
 /* header and footer areas */
 .menu { padding: 0; }
-.menu li { display: inline-block; }
+.menu li {
+ display: inline-block;
+}
 .article-meta, .menu a {
   text-decoration: none;
   background: #eee;
+  border: 1px solid #ddd;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px #eee;
 }
-.terms { font-size: .9em; }
+
+a {
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
+}
+
+.terms {
+  font-size: .9em;
+}
+
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
+.subtitle {
+  font-size: 0.7em;
+  border-bottom: 1px dashed;
+}
 footer a { text-decoration: none; }
 hr {
-  border-style: dashed;
-  color: #ddd;
+  margin: 25px auto;
+  height: 1px;
+  overflow: hidden;
+  border: none;
+  background: #e5e5e5;
 }
 
 /* code */
@@ -31,7 +53,7 @@ pre {
   overflow-x: auto;
 }
 code { background: #f9f9f9; }
-pre code { background: none; }
+pre code { background: #f9f9f9; }
 
 /* misc elements */
 img, iframe, video { max-width: 100%; }
