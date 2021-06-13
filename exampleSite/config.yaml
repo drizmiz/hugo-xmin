@@ -1,6 +1,6 @@
 baseurl: "/"
 languageCode: "en-us"
-title: "A minimal Hugo website"
+title: "Drizzle's Blog"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
@@ -25,13 +25,11 @@ menu:
     - name: Tags
       url: "tags/"
       weight: 4
-    - name: Subscribe
-      url: "index.xml"
 
 params:
   description: "A website built through Hugo and blogdown."
-  GithubEdit: "https://github.com/drizmiz/blog-main/edit/master/"
-  footer: "[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) &#127279;[Drizzle](https://driz.netlify.app) 2017 -- 2020 | [Github](https://github.com/drizmiz)"
+  GithubEdit: "https://github.com/drizmiz/blog/edit/main/content/"
+  footer: "[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) &#127279;[Drizzle](https://driz.netlify.app) | [Github](https://github.com/drizmiz)"
 
 markup:
   goldmark:
