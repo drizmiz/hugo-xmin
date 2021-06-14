@@ -1,9 +1,8 @@
 baseurl: "/"
 languageCode: "en-us"
-title: "Drizzle's Blog"
+title: "A minimal+ Hugo website"
 theme: "hugo-xmin"
 googleAnalytics: ""
-disqusShortname: "yihui"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 footnotereturnlinkcontents: "↩"
 
@@ -29,7 +28,7 @@ menu:
 params:
   description: "A website built through Hugo and blogdown."
   GithubEdit: "https://github.com/drizmiz/blog/edit/main/content/"
-  footer: "[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) &#127279;[Drizzle](https://driz.netlify.app) | [Github](https://github.com/drizmiz)"
+  footer: "[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | &#127279; [Drizzle](https://driz.netlify.app)"
 
 markup:
   goldmark:

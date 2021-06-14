@@ -1,6 +1,24 @@
 # HUGO XMIN+
 
-This repo is basically `yihui/hugo-xmin` with some additional simple features and widgets. The original documentation is kept as is below.
+This repository is basically `yihui/hugo-xmin` with some additional simple features and widgets. Changes include:
+
+- Change `permalinks` from "/:year/:month/:day/"-like to "/:year/"-like
+
+- Remove the "Subscribe" term
+
+- +GithubEdit
+
+- Change the footer of the example site from copyright to CC-BY-SA 3.0 flavored copyleft
+
+- Change the sources of some js files
+
+- +some fonts and css
+
+- Embed Disqus (powered by DisqusJS)
+
+- Show categories and tags for each post
+
+The original documentation is kept as-is below.
 
 ## _Keep it simple, but not simpler_
 
