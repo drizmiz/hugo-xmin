@@ -18,6 +18,8 @@ This repository is basically `yihui/hugo-xmin` with some additional simple featu
 
 - Show categories and tags for each post
 
+This repository is re-licensed under the terms of **MPL v2.0**. The original MIT license is preserved and renamed to `MITLicense_Xie.md`.
+
 The original documentation is kept as-is below.
 
 ## _Keep it simple, but not simpler_
