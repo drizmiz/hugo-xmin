@@ -1,6 +1,25 @@
+
 <script src="//yihui.org/js/math-code.js"></script>
 <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 <script async src="//yihui.org/js/center-img.js"></script>
 
-{{ template "_internal/disqus.html" . }}
+<script src="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js"></script>
+
+{{ if and .IsPage (ne .Params.comments false) }}
+<div id="disqus_thread"></div>
+<script>
+var dsqjs = new DisqusJS({
+    shortname: '',
+    siteName: "",
+    identifier: '',
+    url: '',
+    title: '',
+    api: 'https://disqus.skk.moe/disqus/',
+    apikey: '',
+    nocomment: 'No comments.',
+    admin: '',
+    adminLabel: 'Blogger'
+});
+</script>
+{{ end }}

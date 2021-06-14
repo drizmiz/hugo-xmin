@@ -96,8 +96,8 @@ body {
 
 code {
   font-family: "Fira Code", Optima, roboto, "Lucida Console", Monaco, monospace;
-  font-size: 75%;
-  font-weight: 300;
+  font-size: 80%;
+  font-weight: 500;
   font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
   text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */  
 }
